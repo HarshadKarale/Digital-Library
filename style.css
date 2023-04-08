@@ -1,0 +1,114 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.sticky{
+	position: sticky;
+	position: fixed;
+}
+.nav_cont{
+	width:100%;
+}
+.books_img{
+	border: 2px solid grey;
+	box-shadow: 3px 3px 3px 3px;
+}
+.books_img:hover{
+	box-shadow: 0px 0px 0px 0px;
+}
+
+
+.around_lib_imgs:hover{
+	box-shadow: 3px 3px 3px 3px;
+}
+
+
+@media (max-width:768px){
+	.responsive1{
+		width: 50%;
+		margin-top: 10px;
+		text-align: center;
+		float: left;
+		height:400px;
+		z-index: -2;
+	}
+	.headings{
+		text-align: center;
+		margin-top: 40px;
+		font-weight: bold;
+	}
+	.footer_devps_contact{
+		margin-top: 20px;
+	}
+	.footer_help{
+		margin-top: 30px;
+		font-weight: bold;
+	}
+	.computer_science_books{
+		width: 50%;
+		margin-top: 70px;
+		align-items: center;
+		text-align: center;
+	}
+	.homepage_books{
+		text-align: center;
+		width: 50%;
+		float: left;
+		margin-top: 20px;
+	}
+}
+
+@media (min-width :769px){
+	.responsive1{
+		text-align: center;
+		width: 20%;
+		float: left;
+		margin-top: 10px;
+		height:400px;
+	}
+	.headings{
+		margin-top: 50px;
+		font-weight: bold;
+	}
+	.footer{
+		margin-top: 130px;
+		/* height: 300px; */
+	}
+	.footer_help{
+		font-weight: bold;
+		margin-top: 16px;
+	}
+	.computer_science_books{
+		width: 25%;
+		text-align: center;
+	}
+	.homepage_books{
+		text-align: center;
+		width: 25%;
+		float: left;
+		margin-top: 20px;
+	}
+}
+
+.get_in_touch{
+	background-image: url("images/get_in_touch1.jpg");
+}
+
+
+.register_to_download{
+	margin-left: 33%;
+}
+/* .about_us_bg{
+	background-color: #00001a;
+} */
+
+.blog_card:hover{
+	box-shadow: 2px 2px 2px 2px silver;
+  }
+
+  .gap{
+	height:15px;
+	width: 100%;
+	margin-top:10px;
+	background-color: rgb(155, 151, 151);
+  }

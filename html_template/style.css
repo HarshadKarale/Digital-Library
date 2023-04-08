@@ -1,0 +1,15 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.books_img{
+	border: 2px solid grey;
+	box-shadow: 3px 3px 3px 3px;
+}
+.books_img:hover{
+	box-shadow: 0px 0px 0px 0px;
+}
+
+.around_lib_imgs:hover{
+	box-shadow: 3px 3px 3px 3px;
+}
